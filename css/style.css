@@ -61,7 +61,7 @@ img{
 
 /** Header **/
 .header{
-    background-image: url(../img/logo_ext.jpeg);
+    background-image: url(../img/personal.jpg);
     height: 65rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,6 +70,21 @@ img{
 
 .header__texto {
     text-align: center;
-    color: var(--blanco);
+    color: var(--primario);
     margin-top: 5rem;
+}
+
+@media (min-width: 768px) {
+    .barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+}
+.logo{
+    color:var(--primario);
+    font-weight: 700;
+}
+.navegacion{
+    
 }
