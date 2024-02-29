@@ -85,6 +85,16 @@ img{
     color:var(--primario);
     font-weight: 700;
 }
-.navegacion{
-    font-weight: 100;
+
+@media (min-width: 768px) {
+       .navegacion{
+        display: flex;
+        gap: 2rem;
+       }
 }
+ .navegacion__enlace{
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+        color: var(--primario);
+    }
