@@ -62,7 +62,7 @@ img{
 /** Header **/
 .header{
     background-image: url(../img/personal.jpg);
-    height: 65rem;
+    height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -98,3 +98,21 @@ img{
         font-size: 2rem;
         color: var(--primario);
     }
+
+
+.footer{
+    background-color: #FB7E63;
+    text-align: center;
+    
+}
+
+@media (min-width: 768px) {
+        .redes__icon{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 5rem;
+    }
+}
+
+
