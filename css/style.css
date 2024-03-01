@@ -107,12 +107,10 @@ img{
 }
 
 @media (min-width: 768px) {
-        .redes__icon{
+        .redes{
         display: flex;
         justify-content:center;
         align-items: center;
         gap: 5rem;
     }
 }
-
-
